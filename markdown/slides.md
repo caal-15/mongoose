@@ -243,7 +243,7 @@ frameworks de Node.js, démosle una mirada a express:]
 app.post('/', function (req, res) {
   Human.create(req.body, function (err, human) {
     if (err) res.json({msg: 'Failure'})
-    else res.json({msh: 'OK', data: human})
+    else res.json({msg: 'OK', data: human})
   })
 })
 ```
