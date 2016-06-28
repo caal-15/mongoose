@@ -14,4 +14,3 @@ function readTextFile(file, fileDisplayArea) {
 }
 
 readTextFile('markdown/slides.md', document.getElementById('source'))
-console.log('ahaaaa');
