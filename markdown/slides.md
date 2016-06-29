@@ -252,6 +252,6 @@ app.post('/', function (req, res) {
 
 .big[Por cierto, Mongoose es Mangosta, osea esta cosa cool aquí abajo:]
 
-.center[![alt text](img/mongoose.jpg)]
+.centering[![alt text](img/mongoose.jpg)]
 
 .big[.monred[Muchas Gracias Por su atención!]]
