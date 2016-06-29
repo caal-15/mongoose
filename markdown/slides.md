@@ -41,8 +41,7 @@ en mi opinión es la transparencia, simplemente sigues escribiendo JavaScript!]]
 ---
 # Pero primero lo primero ¿Cómo la instalo?
 
-.big[Para instalar mongoose, solo hace falta instalarlo como cualquier otro
-módulo de node:]
+.big[Se puede instalar como cualquier otro módulo de Node:]
 
 `npm install mongoose`
 
@@ -114,7 +113,7 @@ var data = {name: 'Carlos'}
 ```
 
 ---
-# Encuentra lo busca tu corazón, o no...
+# Encuentra lo que busca tu corazón, o no...
 ## .monred[Queries un poco mas avanzados:]
 
 .big[La operación find de .monred[Mongoose] soporta por supuesto querying mucho
