@@ -71,7 +71,7 @@ primero que se quiere hacer usualmente es definir un esquema, y para hacerlo
 solo necesitamos de JSON!]
 
 ```javascript
-var humanSchema = mongoose.Schema({
+var humanSchema = new mongoose.Schema({
   name: {type: String, maxlength: 30},
   likesGameOfThrones: {type: Boolean, default: true}
 })
@@ -190,7 +190,7 @@ class: center, middle
 un "join", y para eso existe populate:]
 
 ```javascript
-var petSchema = mongoose.Schema({
+var petSchema = new mongoose.Schema({
   name: String,
   howYouActuallyCallIt: String,
   human: {type: String, ref: 'human'}
@@ -216,7 +216,7 @@ la DB:]
 
 ```javascript
 petSchema.pre('save', function (next) {
-  Human.findByIdAndUpdate(this.human, {$inc: pets}, function (err, human) {
+  Human.findByIdAndUpdate(this.human, {$inc: {pets: 1}}, function (err, human) {
     if (err || !human) console.log('No pet added :(');
     else console.log('You have a new Pet :D!');
   })
