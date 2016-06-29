@@ -28,6 +28,11 @@ a:hover {
   color: #800;
 }
 
+img {
+  width: 40%;
+  margin: 10px;
+}
+
 .footnote {
   position: fixed;
   bottom: 15px;
@@ -45,6 +50,14 @@ a:hover {
 
 .mid-paragraph {
   margin-top: 18%;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }

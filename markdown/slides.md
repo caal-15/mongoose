@@ -246,3 +246,12 @@ app.post('/', function (req, res) {
   })
 })
 ```
+
+---
+# Y eso es todo! (Por Hoy)
+
+.big[Por cierto, Mongoose es Mangosta, osea esta cosa cool aquí abajo:]
+
+.center[![alt text](img/mongoose.jpg)]
+
+.big[.monred[Muchas Gracias Por su atención!]]
