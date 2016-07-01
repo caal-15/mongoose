@@ -255,3 +255,5 @@ app.post('/', function (req, res) {
 .centering[![alt text](img/mongoose.jpg)]
 
 .big[.monred[Muchas Gracias Por su atención!]]
+
+.footer[El código de la charla se puede encontrar [aquí](https://github.com/caal-15/mongoose-fiddle/tree/finished-fiddle)]
